@@ -10,11 +10,11 @@ During my internship at CodSoft, I worked on a variety of HTML , CSS & JavaScrip
 
 **What You'll Find Here**
 
--> Project showcases: In this repository , you'll find a collection of proejects I have worked on during my internship at CodSoft. These projects reflect my growth as a Web Developer and highlight the practical skills i have gained.
+-> **Project showcases:** In this repository , you'll find a collection of proejects I have worked on during my internship at CodSoft. These projects reflect my growth as a Web Developer and highlight the practical skills i have gained.
 
--> Code Samples: I've included the code snippets and examples that demonstrate my proficiency in Web Development. Feel free to explore and provide feedback.
+-> **Code Samples:** I've included the code snippets and examples that demonstrate my proficiency in Web Development. Feel free to explore and provide feedback.
 
--> Documentation: To ensure clarity and ease of understanding , I've provided documentation for some of the projects. This documentation shoecases my ability to communicate technical concepts effectively
+-> **Documentation:** To ensure clarity and ease of understanding , I've provided documentation for some of the projects. This documentation shoecases my ability to communicate technical concepts effectively
 
 **Learning and Growth**
 
