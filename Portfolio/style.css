@@ -1,0 +1,380 @@
+:root{
+    --primary:#2d478d;
+    --secondary:#53368a;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'League Spartan', sans-serif;
+    background-color: lightblue;
+}
+.hero{
+    color: #fff;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('comp8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10% 10px 10%;
+    background-color: var(--primary);
+    height: 40px;
+    align-items: center;
+}
+.hero .nav .menu{
+    display: none;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hero .nav h1{
+    font-size: 30px;
+    margin-top: 40px;
+    color:#fff;
+}
+.hero .nav ul{
+    display: flex;
+    margin-top: 34px;
+}
+.hero .nav ul li{
+    margin-left: 50px;
+    list-style-type: none;
+    color: white;
+}
+.hero .nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s;
+}
+.hero .nav ul li a:hover{
+    color: #1C1D25;
+}
+.hero .content{
+    padding: 10px 10%;
+    margin-top: 80px;
+}
+.hero .content h3{
+    font-size: 50px;
+}
+.hero .content h1{
+    font-size: 40px;
+    margin-top: -40px;
+}
+.hero .content h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -15px;
+    font-family: 'Libre Baskerville', serif;
+}
+.hero .sidenav{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--primary);
+    overflow-x: hidden;
+    transition: 0.8s;
+    padding-top: 60px;
+    padding-right: 100px;
+    width: 200px;  
+    display: none;  
+}
+.hero .sidenav ul{
+    display: block;
+    margin-top: 30px;  
+}
+.hero .sidenav ul li{
+    list-style-type: none;
+    margin-bottom:20px;
+}
+.hero .sidenav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.hero .sidenav .close{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 2rem;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.hero .sidenav ul li a:hover{
+    color: #1C1D25;
+    transition: 0.8s;
+}
+.hero .content .btn{
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    transition: transform.4s;
+}
+.hero .content .btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+@keyframes change-bg {
+    0%,100%{
+        background-color: var(--primary);
+    }
+    50%{
+        background-color: #1C1D25;
+    }
+}
+.hero .content .btn:hover{
+    background-color: var(--primary);
+    animation: change-bg 0.9s ease-in-out;
+}
+.section{
+    padding: 10px 10%;
+    margin-bottom: 30px;
+}
+.section h1{
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--primary);
+}
+.section h1 span{
+    color: #1C1D25;
+    font-size: 50px;
+}
+.section p{
+    font-size: 17px;
+    color: #1C1D25;
+    font-family: 'Noto Sans', sans-serif;
+}
+.about .divi{
+    display: flex;
+    justify-content: space-between;
+}
+.about .divi .content{
+    max-width: 75%;
+    margin-right: 10px;
+    padding-right: 25px;
+}
+.about .divi .image img{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.about .divi .image{
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.about .divi .image a{
+    color: #1C1D25;
+    font-size: 20px;
+    text-align: center;
+}
+.about .divi .image .btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 25px;
+    transition: transform.4s;
+    text-decoration: none;
+}
+.about .divi .image .btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+.skills .divi{
+    display: flex;
+    justify-content: space-between;
+}
+.skills .divi .content{
+    max-width: 55%;
+    padding: 35px;
+}
+.skills .divi .langs{
+    width: 100%;
+}
+.skills .langs p{
+    /* color: var(--primary); */
+    font-weight: 900;
+}
+.skills .bar{
+    height: 25px;
+    width: 100%;
+    background-color: #c8cad6;
+    color: #fff;
+    text-align: right;
+    border-radius: 2px;
+    margin-top: -10px;
+    overflow: hidden;
+    font-weight: 900;
+}
+.skills .bar .lang{
+    height: 100%;
+    background-color: #1C1D25;
+    padding: 3px 10px 0px 0px;
+}
+.skills .bar .python{
+    width: 90%;
+}
+.skills .bar .html{
+    width: 80%;
+}
+.skills .bar .css{
+    width: 60%;
+}
+.skills .bar .js{
+    width: 40%;
+}
+.skills .bar .bs{
+    width: 60%;
+}
+.skills .bar .dj{
+    width: 70%;
+}
+.contact h2{
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px; margin-top: 10px;
+}
+.contact .content{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .msg{
+    max-width: 60%;
+}
+.contact .content ul{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.contact .form{
+    width: 50%;
+    padding: 20px 0px 0px 30px;
+    border: 3px solid var(--primary);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: var(--primary);
+}
+.contact form input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.contact form textarea{
+    max-width: 250px;
+    max-height: 100px;
+    margin-top: 5px;
+}
+.contact form input{
+    width: 250px;
+    height: 30px;
+}
+.contact form button{
+    height: 40px;
+    width: 130px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform.4s;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.contact form button:hover{
+    transform: scale(1.2);
+    background-color:#1C1D25;
+    color:#fff;
+}
+.footer{
+    background-color: #1C1D25;
+    height: 3%;
+    text-align: center;
+    padding:10px 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between ;
+    border-bottom: 0px;
+}
+.footer a{
+    font-size: 25px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer span{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .hero .nav ul{
+        display: none;
+    }
+    .hero .nav .menu{
+        display: block;
+    }
+    .hero .content{
+        margin-top: 70px;
+    }
+    .about .divi{
+        display: block;
+    }
+    .about .divi .content{
+        max-width: 100%;
+    }
+    .skills .divi{
+        display: block;
+    }
+    .skills .divi .content{
+        max-width: 100%;
+    }
+    .footer{
+        display: block;
+        height: 9%;
+    }
+    .footer span{
+        font-size: 15px;
+    }
+    .footer a{
+        margin-top: 10px;
+        font-size: 20px;
+    }   
+}
+@media only screen and (max-width: 964px) {
+    .contact .content{
+        display: block;
+    }
+    .contact .content .msg{
+        max-width: 100%;
+    }
+    .contact .content .form{
+        width: 100%;
+        margin-left: -20px;
+    }
+}
