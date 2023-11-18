@@ -14,7 +14,7 @@ During my internship at CodSoft, I worked on a variety of HTML , CSS & JavaScrip
 
 -> Code Samples: I've included the code snippets and examples that demonstrate my proficiency in Web Development. Feel free to explore and provide feedback.
 
-Documentation: To ensure clarity and ease of understanding , I've provided documentation for some of the projects. This documentation shoecases my ability to communicate technical concepts effectively
+-> Documentation: To ensure clarity and ease of understanding , I've provided documentation for some of the projects. This documentation shoecases my ability to communicate technical concepts effectively
 
 **Learning and Growth**
 
@@ -22,4 +22,4 @@ My internship at CodSoft was a transformative experience that allowed me to expa
 
 Feel free to reach out if you have any questions, want to collaborate , or just want to connect. Thank you for visiting my GItHub profile!
 
-Linkedin : Sarika Gangothri 
+Linkedin : Sarika Gangothri [ https://www.linkedin.com/in/sarika-gangothri-36318a29b ]
